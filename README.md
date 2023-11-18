@@ -1,4 +1,22 @@
 # JessiArm
+## Hardware
+
+Nvidia Jetson 2G board
+
+PCA9685 PWM driver
+
+DFROBOT FIT07071 USB Camera
+
+DIY 5DOF Robot Arm + Gripper
+
+18650 4 battery shield v9
+
+## Software on Jetson
+
+- Jetpack4.5.x or Jetpack4.6.x(Ubuntu 18.04) → OpenCV downgrade to 3.4.6 for darknet_ros
+- ROS Melodic
+- MoveIt 1
+  
 # Install jessiarm code
  jessiarm install on Jetson
 ```
