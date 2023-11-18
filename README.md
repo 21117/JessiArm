@@ -17,3 +17,7 @@ adafruit_pca9685 servo motor check
 pip2 install adafruit_pca9685
 ```
 ```/home/jetson/catkin_ws/src/jessiarm/jessiarm_control/src/servokit_test.py ```
+```cd ~/catkin_ws
+python src/jessiarm/jessiarm_control/src/servokit_test.py```
+
+
