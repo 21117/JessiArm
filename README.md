@@ -26,7 +26,8 @@ teleop_twist_keyboard install
 jetson@jp4612GCv346Py37:~/catkin_ws$ cd ..
 jetson@jp4612GCv346Py37:~/catkin_ws$ cma
 ```
-```$ roslaunch jessiarm_control teleop_keyboard.launch```
+```$ roslaunch jessiarm_control teleop_keyboard.launch
+```
 j l: robot arm left, right
 i , : motor1 incline
 o . : motor2 incline
