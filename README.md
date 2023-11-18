@@ -98,7 +98,8 @@ cd ~/catkin_ws/src/yolov4-for-darknet_ros/darknet_ros
 git clone https://github.com/zeta0707/darknet_ros_custom.git
 cp -rf darknet_ros_custom/* darknet_ros/
 ```
-1.3 Run "darknet_ros".
+1.3 Run "darknet_ros"
+
 1.3.4 Pick and place the objects learned by "yolo_v4"
 ```
 #terminal #1, object detect using Yolo_v4
