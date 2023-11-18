@@ -99,7 +99,6 @@ git clone https://github.com/zeta0707/darknet_ros_custom.git
 cp -rf darknet_ros_custom/* darknet_ros/
 ```
 1.3 Run "darknet_ros"
-
 1.3.4 Pick and place the objects learned by "yolo_v4"
 ```
 #terminal #1, object detect using Yolo_v4
@@ -107,4 +106,11 @@ jetson@jp4612GCv346Py37:~$ roslaunch darknet_ros yolo_v4.launch
 
 #terminal #2, camera publish, object x/y -> robot move
 jetson@jp4612GCv346Py37:~$ roslaunch jessiarm_control yolo_chase.launch
+```
+1.4 Write the object to PicknPlace in "yolo_jessiarm.yaml"
+```
+jessiarm_target:
+  DETECT_CLASS1 : "cup"
+  DETECT_CLASS2 : "mouse"
+:
 ```
