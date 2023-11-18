@@ -18,6 +18,18 @@ pip2 install adafruit_pca9685
 ```
 ```/home/jetson/catkin_ws/src/jessiarm/jessiarm_control/src/servokit_test.py ```
 ```cd ~/catkin_ws
-python src/jessiarm/jessiarm_control/src/servokit_test.py```
-
-
+python src/jessiarm/jessiarm_control/src/servokit_test.py
+```
+# Teleop by keyboard
+teleop_twist_keyboard install
+```jetson@jp4612GCv346Py37:~/catkin_ws$ git clone https://github.com/ros-teleop/teleop_twist_keyboard.git
+jetson@jp4612GCv346Py37:~/catkin_ws$ cd ..
+jetson@jp4612GCv346Py37:~/catkin_ws$ cma
+```
+```$ roslaunch jessiarm_control teleop_keyboard.launch```
+j l: robot arm left, right
+i , : motor1 incline
+o . : motor2 incline
+u m : motor3 incline
+t b: gripper open, close
+U, M: motor4 revolution
