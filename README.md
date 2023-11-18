@@ -84,6 +84,7 @@ use the "darknet_ros" to recognize object.
 "YOLO4-tiny" denotes a lightweight version of YOLOv4.
 2. "darknet_ros" is a package for using YOLO with ROS (Robot Operating System). ROS is an open-source robotics platform used for developing and running robotics applications. The "darknet_ros" package facilitates the integration of YOLO into the ROS environment.
 Above things allow you to implement object detection in robotics applications.
+
 Install darknet_ros
 ```
 sudo apt-get install -y ros-melodic-image-pipeline
@@ -97,7 +98,7 @@ cd ~/catkin_ws/src/yolov4-for-darknet_ros/darknet_ros
 git clone https://github.com/zeta0707/darknet_ros_custom.git
 cp -rf darknet_ros_custom/* darknet_ros/
 ```
-Run "darknet_ros"
+Run "darknet_ros".
 Pick and place the objects learned by "yolo_v4"
 ```
 #terminal #1, object detect using Yolo_v4
