@@ -1,5 +1,6 @@
 # JessiArm
 rf. https://zeta7.notion.site/zeta7/JessiArm-be431f54912b472fb7f8977e5499612d
+
 Refer to the original text above.
 ## Hardware
 
